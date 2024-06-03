@@ -79,7 +79,7 @@ def speaker_identification(segs_list,fp, inference):
 def do_work(filepath,nspeakers=None):
     #------------------------DIARIZATION ACCORDING TO DIFFERENT SPEAKERS------------------------
     #pyannote pipeline
-    pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1", use_auth_token="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")
+    pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1", use_auth_token="")  #--your TOKEN
     #output for each speaker, one element in 'k': '[ 00:00:00.008 -->  00:00:08.106] A SPEAKER_04'
     if nspeakers!=None:
         k=str(pipeline(filepath,num_speakers=nspeakers)).split('\n')
@@ -97,7 +97,7 @@ def do_work(filepath,nspeakers=None):
     #------------------------SPEAKER IDENTIFICATION------------------------
     #embedding model
     emb_model = Model.from_pretrained("pyannote/embedding", 
-                              use_auth_token="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")
+                              use_auth_token="")  #--your TOKEN
     inference = Inference(emb_model, window="whole")
     identified_speakers=speaker_identification(k,filepath,inference)
     #------------------------TRANSCRIPTIONS AND SAVING RESULTS------------------------
