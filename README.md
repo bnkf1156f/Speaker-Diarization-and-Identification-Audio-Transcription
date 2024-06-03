@@ -1,7 +1,7 @@
 # Speaker-Identification-Audio-Transcription
 Audio File Processing Information and Code with three approaches: https://colab.research.google.com/drive/1nSHEw1ygd3t_X1QnKy4zfdRavbvQ_fXs?usp=sharing
 
-Zip File: https://drive.google.com/file/d/1TGUyyMpuVOFTvbHDwoay1iCzCr014SI1/view?usp=sharing
+Zip File: https://drive.google.com/file/d/1OsDV65HoJYfVdMFKngnL9f2ebjzSJ339/view?usp=sharing
 
 We are using the **Second Approach** from the colab file.
 In this project, we are providing Audio File's transcription with Multi-Speaker Identification using two different models, as mentioned in *Google Colab File*! 
