@@ -1,4 +1,4 @@
-# Speaker-Identification-Audio-Transcription
+# Speaker Identification Audio Transcription
 Audio File Processing Information and Code with three approaches: https://colab.research.google.com/drive/1nSHEw1ygd3t_X1QnKy4zfdRavbvQ_fXs?usp=sharing
 
 Zip File: https://drive.google.com/file/d/1EuHdlMhcdKx175xOdTOcJbVG7L23EyKW/view?usp=sharing
